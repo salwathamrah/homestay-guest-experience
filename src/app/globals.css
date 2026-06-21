@@ -3,11 +3,21 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-cream: #fdf6ec;
+  --color-saffron: #d97706;
+  --color-saffron-dark: #b45309;
+  --color-walnut: #5b3a29;
+  --color-maroon: #7c2d12;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-cream: var(--color-cream);
+  --color-saffron: var(--color-saffron);
+  --color-saffron-dark: var(--color-saffron-dark);
+  --color-walnut: var(--color-walnut);
+  --color-maroon: var(--color-maroon);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
